@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+<link rel="stylesheet" href="../styles/styles.css"/>
+</head>
+<body>
+
+		<div class="wrapper">
+
+			<form class="feedback__form" action="">
+				<div id="messenger"></div>
+				<label class="form__label" for="inputName">Имя</label>
+				<input type="text" class="form__input" name="name" id="inputName" placeholder="Ваше имя">
+				<label class="form__label" for="inputEmail">Ваш Email</label>
+				<input type="text" class="form__input" name="e-mail" id="inputEmail" placeholder="Ваш Email">
+				<div class="form__rating">
+					<label for="rating" class="form__label">Оцените нас</label>
+					<fieldset>
+						<input type="radio" id="star5" name="rating" value="5">
+						<label for="star5" title="Отлично">5 звезд</label>
+						<input type="radio" id="star4" name="rating" value="4">
+						<label for="star4" title="Очень хорошо">4 звезды</label>
+						<input type="radio" id="star3" name="rating" value="3">
+						<label for="star3" title="Хорошо">3 звезды</label>
+						<input type="radio" id="star2" name="rating" value="2">
+						<label for="star2" title="Нормально">2 звезды</label>
+						<input type="radio" id="star1" name="rating" value="1">
+						<label for="star1" title="Плохо">1 звезда</label>
+					</fieldset>
+				</div>
+				<label for="message" class="form__label">Ваше сообщение</label>
+				<textarea class="form__message" name="" id="message" cols="49" rows="9" placeholder="Введите сообщение "></textarea>
+				<button class="form__submit" type="submit">Отправить</button>
+			</form>
+
+		</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../scripts/main.js"></script>
+</body>
+</html>
+
+
+
+
